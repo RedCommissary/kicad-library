@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F042F4P6
+D MCU Cortex-M0, 48 MHz, TSSOP-20
+F https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F042F4P6/5268187
+$ENDCMP
+#
+$CMP STM32F334C4T6
+D MCU Cortex-M4, 72 MHz, LQFP-48
+F https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F334C4T6/4989170?s=N4IgTCBcDaIMoBUCyBmMAxFKAsBhbCAbCALoC%2BQA
+$ENDCMP
+#
+#End Doc Library

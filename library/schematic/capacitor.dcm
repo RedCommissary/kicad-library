@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ceramic
+D Ceramica capacitor
+F https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KA5NNNC/5961204
+$ENDCMP
+#
+$CMP tantal
+D Polymer or tantal capacitor
+F https://www.digikey.com/en/products/detail/vishay-sprague/T55A476M6R3C0200/4989500
+$ENDCMP
+#
+#End Doc Library

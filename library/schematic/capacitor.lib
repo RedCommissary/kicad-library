@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ceramic
+#
+DEF ceramic C 0 40 N N 1 F N
+F0 "C" 140 -30 39 H V C CNN
+F1 "ceramic" 235 -95 39 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "CL05B104KA5NNNC" 200 -300 50 H I C CNN "PartNumber"
+F5 "Samsung" 200 -400 50 H I C CNN "Manufacture"
+F6 "25V" 175 -175 39 H V C CNN "Voltage"
+$FPLIST
+ C0402
+$ENDFPLIST
+DRAW
+S -75 -140 75 -115 0 1 0 F
+S -75 -60 75 -85 0 1 0 F
+X 1 1 0 0 63 D 50 50 1 1 P
+X 2 2 0 -200 63 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tantal
+#
+DEF tantal C 0 40 N N 1 F N
+F0 "C" 140 -30 39 H V C CNN
+F1 "tantal" 205 -100 39 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "T55A476M6R3C0200" 250 -300 50 H I C CNN "PartNumber"
+F5 "Vishay" 225 -375 50 H I C CNN "Manufacture"
+F6 "6.3V" 185 -170 39 H V C CNN "Voltage"
+$FPLIST
+ tantal-type-A
+$ENDFPLIST
+DRAW
+S -75 -140 75 -115 0 1 0 F
+S -75 -60 75 -85 0 1 0 N
+P 2 0 1 0 -70 -35 -50 -35 N
+P 2 0 1 0 -60 -45 -60 -25 N
+X 1 1 0 0 59 D 50 50 1 1 P
+X 2 2 0 -200 63 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

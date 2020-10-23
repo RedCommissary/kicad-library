@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP resistor
+D Resistor
+F https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxIDSAMiALoC%2BQA
+$ENDCMP
+#
+$CMP thermistor
+D NTC thermistor
+F https://www.digikey.com/en/products/detail/murata-electronics/NCU18XH103J60RB/7595502
+$ENDCMP
+#
+$CMP trimmer
+D Trimmer
+F https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-103LF/1088045?s=N4IgTCBcDaIMxgJwDYDqBaAjFgDHAMgGIgC6AvkA
+$ENDCMP
+#
+$CMP varistor
+D TVS varistor
+F https://www.digikey.com/en/products/detail/bourns-inc/DV275K4032R2/11632141
+$ENDCMP
+#
+#End Doc Library

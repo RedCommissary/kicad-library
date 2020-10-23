@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP current-sense-2512
+D Current power sense, case 2512, 5W
+F https://www.digikey.com/en/products/detail/bourns-inc/CSS2H-2512K-2L00F/6023737
+$ENDCMP
+#
+$CMP resistor
+D Resistor film, case 0603, 0.1W
+F https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700?s=N4IgTCBcDaIEoGEAMA2JBmAUnAtEg7AIxIDSAMiALoC%2BQA
+$ENDCMP
+#
+$CMP resistor-0402
+D Resistor film, case 0402, 0.063W
+F https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A
+$ENDCMP
+#
+$CMP resistor-0805
+D Resistor film, case 0805, 0.125W
+F https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241
+$ENDCMP
+#
+$CMP resistor-1206
+D Resistor film, case 1206, 0.25W
+F https://www.digikey.com/en/products/detail/yageo/RC1206JR-0710KL/729209?s=N4IgTCBcDaIEoGECMYAMA2AUnAtKg7EqgNIAyIAugL5A
+$ENDCMP
+#
+$CMP resistor-1210
+D Resistor film, case 1210, 0.5W
+F https://www.digikey.com/en/products/detail/yageo/RC1210JR-0710KL/5919842?s=N4IgTCBcDaIEoGECMYkAYBScC0aDs6A0gDIgC6AvkA
+$ENDCMP
+#
+$CMP resistor-2512
+D Resistor film, case 2512, 1W
+F https://www.digikey.com/en/products/detail/yageo/RL2512JK-070R5L/5925490
+$ENDCMP
+#
+$CMP thermistor
+D NTC thermistor
+F https://www.digikey.com/en/products/detail/murata-electronics/NCU18XH103J60RB/7595502
+$ENDCMP
+#
+$CMP trimmer
+D Trimmer
+F https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-103LF/1088045?s=N4IgTCBcDaIMxgJwDYDqBaAjFgDHAMgGIgC6AvkA
+$ENDCMP
+#
+$CMP varistor
+D TVS varistor
+F https://www.digikey.com/en/products/detail/bourns-inc/DV275K4032R2/11632141
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,84 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# resistor
+#
+DEF resistor R 0 40 N N 1 F N
+F0 "R" 200 100 39 H V C CNN
+F1 "resistor" 100 -100 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RC0603JR-0710KL" 250 -300 50 H I C CNN "PartNumber"
+F5 "Yageo" 225 -200 50 H I C CNN "Manufacture"
+F6 "±5%" 300 -100 39 H V C CNN "Tolerance"
+$FPLIST
+ R0603
+$ENDFPLIST
+DRAW
+S 100 50 350 -50 0 1 0 N
+X 1 1 0 0 100 R 50 50 1 1 P
+X 2 2 450 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# thermistor
+#
+DEF thermistor R 0 40 N N 1 F N
+F0 "R" 200 100 39 H V C CNN
+F1 "thermistor" 240 -145 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "NCU18XH103J60RB" 255 -235 50 H I C CNN "PartNumber"
+F5 "Murata" 230 -335 50 H I C CNN "Manufacture"
+$FPLIST
+ R0603
+$ENDFPLIST
+DRAW
+S 100 50 350 -50 0 1 0 N
+P 3 0 1 0 100 -100 300 100 350 100 N
+X 1 1 0 0 100 R 50 50 1 1 P
+X 2 2 450 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trimmer
+#
+DEF trimmer R 0 40 N N 1 F N
+F0 "R" 110 90 39 H V C CNN
+F1 "trimmer" 95 -100 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3296W-1-103LF" 275 -285 50 H I C CNN "PartNumber"
+F5 "Bourns" 225 -200 50 H I C CNN "Manufacture"
+F6 "±10%" 300 -100 39 H V C CNN "Tolerance"
+DRAW
+S 100 50 350 -50 0 1 0 N
+P 2 0 1 0 225 50 240 85 N
+P 2 1 1 0 210 85 225 50 N
+X 1 1 0 0 100 R 50 50 1 1 P
+X 2 2 225 150 100 D 50 50 1 1 I
+X 3 3 450 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# varistor
+#
+DEF varistor RU 0 40 N N 1 F N
+F0 "RU" 200 100 39 H V C CNN
+F1 "varistor" 220 -115 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DV275K4032R2" 275 -245 50 H I C CNN "PartNumber"
+F5 "Bourns" 250 -345 50 H I C CNN "Manufacture"
+$FPLIST
+ varistor-4032
+$ENDFPLIST
+DRAW
+S 100 50 350 -50 0 1 0 N
+P 3 0 1 0 100 -100 300 100 350 100 N
+X 1 1 0 0 100 R 50 50 1 1 P
+X 2 2 450 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
