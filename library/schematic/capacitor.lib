@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# aluminium
+#
+DEF aluminium C 0 40 N N 1 F N
+F0 "C" 140 -30 39 H V C CNN
+F1 "aluminium" 270 -100 39 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "35ZLH330MEFCT810X12.5" 250 -300 50 H I C CNN "PartNumber"
+F5 "Rubycon" 225 -375 50 H I C CNN "Manufacture"
+F6 "35V" 175 -170 39 H V C CNN "Voltage"
+$FPLIST
+ C_Alum
+$ENDFPLIST
+DRAW
+S -75 -140 75 -115 0 1 0 F
+S -75 -60 75 -85 0 1 0 N
+P 2 0 1 0 -70 -35 -50 -35 N
+P 2 0 1 0 -60 -45 -60 -25 N
+X 1 1 0 0 59 D 50 50 1 1 P
+X 2 2 0 -200 63 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ceramic
 #
 DEF ceramic C 0 40 N N 1 F N
@@ -12,7 +35,34 @@ F4 "CL05B104KA5NNNC" 200 -300 50 H I C CNN "PartNumber"
 F5 "Samsung" 200 -400 50 H I C CNN "Manufacture"
 F6 "25V" 175 -175 39 H V C CNN "Voltage"
 $FPLIST
- C0402
+ C_0402
+ C_0603
+ C_0805
+ C_1206
+ C_1210
+ C_1812
+ C_2220
+$ENDFPLIST
+DRAW
+S -75 -140 75 -115 0 1 0 F
+S -75 -60 75 -85 0 1 0 F
+X 1 1 0 0 63 D 50 50 1 1 P
+X 2 2 0 -200 63 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# film
+#
+DEF film C 0 40 N N 1 F N
+F0 "C" 140 -30 39 H V C CNN
+F1 "film" 180 -100 39 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "B32021A3103M000" 200 -300 50 H I C CNN "PartNumber"
+F5 "Epcos" 200 -400 50 H I C CNN "Manufacture"
+F6 "1500V" 210 -175 39 H V C CNN "Voltage"
+$FPLIST
+ C_Film
 $ENDFPLIST
 DRAW
 S -75 -140 75 -115 0 1 0 F
@@ -33,7 +83,10 @@ F4 "T55A476M6R3C0200" 250 -300 50 H I C CNN "PartNumber"
 F5 "Vishay" 225 -375 50 H I C CNN "Manufacture"
 F6 "6.3V" 185 -170 39 H V C CNN "Voltage"
 $FPLIST
- tantal-type-A
+ Tantal_A_3216
+ Tantal_B_3528
+ Tantal_C_6032
+ Tantal_D_7343
 $ENDFPLIST
 DRAW
 S -75 -140 75 -115 0 1 0 F

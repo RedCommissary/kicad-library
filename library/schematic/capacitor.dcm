@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP aluminium
+D Aluminium capacitor
+F https://www.digikey.com/en/products/detail/vishay-sprague/T55A476M6R3C0200/4989500
+$ENDCMP
+#
 $CMP ceramic
 D Ceramica capacitor
 F https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KA5NNNC/5961204
+$ENDCMP
+#
+$CMP film
+D Film capacitor
+F https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32021A3103M000/2045200
 $ENDCMP
 #
 $CMP tantal

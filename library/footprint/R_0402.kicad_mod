@@ -1,4 +1,4 @@
-(module R_0402 (layer F.Cu) (tedit 5F92D14B)
+(module R_0402 (layer F.Cu) (tedit 5FAE922B)
   (descr "Resistor case 0402")
   (fp_text reference REF** (at 0.25 -1.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
