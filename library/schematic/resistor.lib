@@ -46,7 +46,7 @@ ENDDEF
 DEF trimmer R 0 40 N N 1 F N
 F0 "R" 110 90 39 H V C CNN
 F1 "trimmer" 95 -100 39 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "footprint:R_Trimmer_3296W" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3296W-1-103LF" 275 -285 50 H I C CNN "PartNumber"
 F5 "Bourns" 225 -200 50 H I C CNN "Manufacture"
