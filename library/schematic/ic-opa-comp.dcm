@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMC1200BDWVR
+D Isolator OP amplifier
+F https://www.digikey.com/product-detail/en/texas-instruments/AMC1200BDWVR/296-39898-1-ND/5177775
+$ENDCMP
+#
+$CMP INA197AIDBVR
+D Current monitor, 50V/V
+F https://www.digikey.com/product-detail/en/texas-instruments/INA197AIDBVR/296-38949-1-ND/5143044
+$ENDCMP
+#
+$CMP INA199A1DCKR
+D Current monitor, 50V/V
+F https://www.digikey.com/product-detail/en/texas-instruments/INA199A1DCKR/296-27329-1-ND/2279290
+$ENDCMP
+#
+$CMP LMV7271MF_NOPB
+D Comparator, rail-to-rail, 2.1µs, output PP
+F https://www.digikey.com/product-detail/en/texas-instruments/LMV7271MF-NOPB/LMV7271MF-NOPBCT-ND/566721
+$ENDCMP
+#
+$CMP MCP6541T-I_OT
+D Comparator, rail-to-rail, 8µs, output PP
+F https://www.digikey.com/product-detail/en/microchip-technology/MCP6541T-I-OT/MCP6541T-I-OTCT-ND/3622387
+$ENDCMP
+#
+$CMP MCP9700AT
+D Temperature monitor, 10mV/°C
+F https://www.digikey.com/product-detail/en/stmicroelectronics/TSV991ILT/497-6001-1-ND/1578484
+$ENDCMP
+#
+$CMP OPA320AIDBVR
+D OP amplifier, rail-to-rail, 20 MHz
+F https://www.digikey.com/product-detail/en/texas-instruments/OPA320AIDBVR/296-29480-1-ND/2747411
+$ENDCMP
+#
+$CMP TLV3491AIDBVR
+D Comparator, rail-to-rail, 13.5µs, output PP
+F https://www.digikey.com/product-detail/en/texas-instruments/TLV3491AIDBVR/296-26825-1-ND/2255187
+$ENDCMP
+#
+$CMP TSV991ILT
+D OP amplifier, rail-to-rail, 20 MHz
+F https://www.digikey.com/product-detail/en/stmicroelectronics/TSV991ILT/497-6001-1-ND/1578484
+$ENDCMP
+#
+#End Doc Library
