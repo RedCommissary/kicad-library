@@ -26,7 +26,7 @@
     * transformer
     * transistor
     * optoisolator
-    * oscilator
+    * oscillator
     * module
     * connector
 
